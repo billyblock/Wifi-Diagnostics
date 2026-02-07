@@ -5,7 +5,7 @@ import csv
 
 def pingTest():
     # google
-    ip = '1.1.1.1'
+    ip = '8.8.8.8'
 
     response = os.popen('ping ' + ip).read()
     
